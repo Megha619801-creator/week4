@@ -175,8 +175,11 @@ p {
 }
 
 .section-title span {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-5);  /* pick your accent color */
+  font-weight: bold;
+  display: inline;
 }
+
 
 .section-center {
   width: 90vw;
