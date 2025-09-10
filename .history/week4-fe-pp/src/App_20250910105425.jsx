@@ -11,7 +11,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
- <BrowserRouter>
+    <BrowserRouter>
       <Navbar />
       <Hero />
       <Routes>
@@ -25,5 +25,6 @@ function App() {
     </BrowserRouter>
   );
 }
+
 
 export default App;
