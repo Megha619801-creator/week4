@@ -49,8 +49,7 @@ const Services = () => {
               <Service {...service} />
               <button
                 className="btn"
-                onClick={() => removeService(service.id)}
-              >
+                onClick={() => removeService(service.id)}>
                 Remove
               </button>
             </div>
